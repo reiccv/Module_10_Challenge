@@ -8,9 +8,9 @@ The steps for this challenge are broken out into the following sections:
 # Table of Contents
 - [Import the Data](#import the data)
 - [Prepare the Data](#prepare the data)
-- [Find the Best Value for k Using the Original Data](#Find the Best Value for k Using the Original Data)
-- [Cluster Cryptocurrencies with K-means Using the Original Data](#Cluster Cryptocurrencies with K-means Using the Original Data)
-- [Visualize and Compare the Results](#Visualize and Compare the Results)
+- [Find the Best Value for k Using the Original Data](#find the best value for k using the original data)
+- [Cluster Cryptocurrencies with K-means Using the Original Data](#cluster cryptocurrencies with k-means using the original data)
+- [Visualize and Compare the Results](#visualize and compare the results)
 
 # Import the Data
 
