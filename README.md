@@ -5,13 +5,14 @@
 
 The steps for this challenge are broken out into the following sections:
 
-- [Import the Data](###import the data)
-- [Prepare the Data](###prepare the data)
-- [Find the Best Value for k Using the Original Data](###Find the Best Value for k Using the Original Data)
-- [Cluster Cryptocurrencies with K-means Using the Original Data](###Cluster Cryptocurrencies with K-means Using the Original Data)
-- [Visualize and Compare the Results](###Visualize and Compare the Results)
+# Table of Contents
+- [Import the Data](#import the data)
+- [Prepare the Data](#prepare the data)
+- [Find the Best Value for k Using the Original Data](#Find the Best Value for k Using the Original Data)
+- [Cluster Cryptocurrencies with K-means Using the Original Data](#Cluster Cryptocurrencies with K-means Using the Original Data)
+- [Visualize and Compare the Results](#Visualize and Compare the Results)
 
-### Import the Data
+# Import the Data
 
 This section imports the data into a new DataFrame. It follows these steps:
 
@@ -28,7 +29,7 @@ This section imports the data into a new DataFrame. It follows these steps:
 ![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/import4.PNG)
 
 
-### Prepare the Data
+# Prepare the Data
 
 This section prepares the data before running the K-Means algorithm. It follows these steps:
 
@@ -39,7 +40,7 @@ This section prepares the data before running the K-Means algorithm. It follows 
 ![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/prepare1.PNG)
 
 
-### Find the Best Value for k Using the Original Data
+# Find the Best Value for k Using the Original Data
 
 In this section, i will use the elbow method to find the best value for `k`.
 
@@ -54,7 +55,7 @@ Repeat for PCA
 ![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/bestk2.PNG)
 
 
-### Cluster Cryptocurrencies with K-means Using the Original Data
+# Cluster Cryptocurrencies with K-means Using the Original Data
 
 In this section, I will use the K-Means algorithm with the best value for `k` found in the previous section to cluster the cryptocurrencies according to the price changes of cryptocurrencies provided.
 
@@ -75,7 +76,7 @@ Repeat for PCA
 
 ![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/clsuters2.PNG)
 
-### Visualize and Compare the Results
+# Visualize and Compare the Results
 
 In this section, you will visually analyze the cluster analysis results by contrasting the outcome with and without using the optimization techniques.
 
