@@ -5,7 +5,7 @@
 
 The steps for this challenge are broken out into the following sections:
 
-* [Import the Data](#import the data)
+- [Import the Data](#import the data)
 * Prepare the Data (provided in the starter code)
 * Find the Best Value for `k` Using the Original Data
 * Cluster Cryptocurrencies with K-means Using the Original Data
