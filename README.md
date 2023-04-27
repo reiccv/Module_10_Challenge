@@ -5,14 +5,11 @@
 
 The steps for this challenge are broken out into the following sections:
 
-- [Import the Data] (#import the data)
-- Prepare the Data (provided in the starter code)
-- Find the Best Value for `k` Using the Original Data
-- Cluster Cryptocurrencies with K-means Using the Original Data
-- Optimize Clusters with Principal Component Analysis
-- Find the Best Value for `k` Using the PCA Data
-- Cluster the Cryptocurrencies with K-means Using the PCA Data
-- Visualize and Compare the Results
+- [Import the Data](###import the data)
+- [Prepare the Data](###prepare the data)
+- [Find the Best Value for k Using the Original Data](###Find the Best Value for k Using the Original Data)
+- [Cluster Cryptocurrencies with K-means Using the Original Data](###Cluster Cryptocurrencies with K-means Using the Original Data)
+- [Visualize and Compare the Results](###Visualize and Compare the Results)
 
 ### Import the Data
 
@@ -22,9 +19,13 @@ This section imports the data into a new DataFrame. It follows these steps:
 
 2. Generate the summary statistics, and use HvPlot to visualize your data to observe what your DataFrame contains.
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/import1.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/import2.PNG)
+
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/import3.PNG)
+
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/import4.PNG)
 
 
 ### Prepare the Data
@@ -35,9 +36,8 @@ This section prepares the data before running the K-Means algorithm. It follows 
 
 2. Create a DataFrame that contains the scaled data. Be sure to set the `coin_id` index from the original DataFrame as the index for the new DataFrame. Review the resulting DataFrame.
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/prepare1.PNG)
 
-![text]()
 
 ### Find the Best Value for k Using the Original Data
 
@@ -47,13 +47,12 @@ In this section, i will use the elbow method to find the best value for `k`.
 
 2. Plot a line chart with all the inertia values computed with the different values of `k` to visually identify the optimal value for `k`.
 
-Repeat 
+Repeat for PCA
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/bestkavlue1.PNG)
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/bestk2.PNG)
 
-![text]()
 
 ### Cluster Cryptocurrencies with K-means Using the Original Data
 
@@ -69,19 +68,10 @@ In this section, I will use the K-Means algorithm with the best value for `k` fo
 
 5. Create a scatter plot using hvPlot by setting `x="price_change_percentage_24h"` and `y="price_change_percentage_7d"`. Color the graph points with the labels found using K-Means and add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
+Repeat for PCA
 
-### Optimize Clusters with Principal Component Analysis
 
-In this section, I will perform a principal component analysis (PCA) and reduce the features to three principal components.
-
-1. Create a PCA model instance and set `n_components=3`.
-
-2. Use the PCA model to reduce to three principal components. View the first five rows of the DataFrame. 
-
-3. Retrieve the explained variance to determine how much information can be attributed to each principal component.
-
-4. Create a new DataFrame with the PCA data. Be sure to set the `coin_id` index from the original DataFrame as the index for the new DataFrame. Review the resulting DataFrame.
-
+![text]()
 
 ### Visualize and Compare the Results
 
@@ -90,3 +80,6 @@ In this section, you will visually analyze the cluster analysis results by contr
 1. Create a composite plot using hvPlot and the plus (`+`) operator to contrast the Elbow Curve that you created to find the best value for `k` with the original and the PCA data.
 
 2. Create a composite plot using hvPlot and the plus (`+`) operator to contrast the cryptocurrencies clusters using the original and the PCA data.
+
+
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/sgementclusters.PNG)
