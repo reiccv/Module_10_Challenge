@@ -71,7 +71,9 @@ In this section, I will use the K-Means algorithm with the best value for `k` fo
 Repeat for PCA
 
 
-![text]()
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/cryptoclusters1.PNG)
+
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/clsuters2.PNG)
 
 ### Visualize and Compare the Results
 
@@ -81,5 +83,7 @@ In this section, you will visually analyze the cluster analysis results by contr
 
 2. Create a composite plot using hvPlot and the plus (`+`) operator to contrast the cryptocurrencies clusters using the original and the PCA data.
 
+
+![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/comparecurves.PNG)
 
 ![text](https://github.com/reiccv/Module_10_Challenge/blob/main/Resources/sgementclusters.PNG)
